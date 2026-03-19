@@ -16,23 +16,13 @@ const Contact = () => {
             </p>
             <h4>Phone</h4>
             <p>+92 315-3298604</p>
-            <h4>Address</h4>
-            <p>Korangi 2 1/2, Sector 41-B, L-704</p>
             <h4>Languages</h4>
             <p>English, Urdu</p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="https://github.com/uzair2424"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Github <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/uzairahmed11"
+              href="https://www.linkedin.com/in/uzairahmed11/"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
@@ -53,7 +43,7 @@ const Contact = () => {
               Designed and Developed <br /> by <span>Uzair Ahmed</span>
             </h2>
             <h5>
-              <MdCopyright /> 2025
+              <MdCopyright /> 2026
             </h5>
           </div>
         </div>
