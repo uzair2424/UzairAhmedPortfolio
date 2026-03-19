@@ -322,10 +322,71 @@
   }
 
   .carousel-slide {
-    padding: 30px 0;
+    padding: 50px 40px;
   }
 
   .work-image img {
     max-height: 250px;
+  }
+
+  .carousel-arrow {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+  }
+
+  .carousel-arrow-left {
+    left: 5px;
+  }
+
+  .carousel-arrow-right {
+    right: 5px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-slide {
+    padding: 40px 35px;
+  }
+
+  .carousel-info {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .carousel-number h3 {
+    font-size: 28px;
+  }
+
+  .carousel-details h4 {
+    font-size: 18px;
+  }
+
+  .carousel-category {
+    font-size: 14px;
+  }
+
+  .carousel-tools .tools-label {
+    font-size: 12px;
+  }
+
+  .carousel-tools p {
+    font-size: 13px;
+  }
+
+  .carousel-arrow {
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+  }
+
+  .carousel-dots {
+    gap: 8px;
+    margin-top: 25px;
+  }
+
+  .carousel-dot {
+    width: 8px;
+    height: 8px;
   }
 }
