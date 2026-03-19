@@ -2,7 +2,7 @@
 
 declare module "gsap-trial/SplitText" {
   export class SplitText {
-    constructor(target: string | Element | Element[], config?: SplitTextConfig);
+    constructor(target: string | Element | (string | Element)[], config?: SplitTextConfig);
     chars: Element[];
     words: Element[];
     lines: Element[];
