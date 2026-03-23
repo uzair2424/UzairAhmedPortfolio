@@ -400,3 +400,19 @@
     height: 8px;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .carousel-arrow {
+    top: auto;
+    bottom: -45px;
+    transform: none;
+  }
+
+  .carousel-arrow-left {
+    left: 30%;
+  }
+
+  .carousel-arrow-right {
+    right: 30%;
+  }
+}
