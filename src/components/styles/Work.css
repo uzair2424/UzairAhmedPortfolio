@@ -402,6 +402,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .carousel-wrapper {
+    width: 120%;
+  }
+
   .carousel-arrow {
     top: auto;
     bottom: -45px;
@@ -409,10 +413,22 @@
   }
 
   .carousel-arrow-left {
-    left: 30%;
+    left: 35%;
   }
 
   .carousel-arrow-right {
-    right: 30%;
+    right: 48%;
+  }
+
+  .work-image img {
+    max-height: 211px;
+  }
+
+  .carousel-dots {
+    display: none;
+  }
+
+  .work-image {
+    justify-content: left;
   }
 }

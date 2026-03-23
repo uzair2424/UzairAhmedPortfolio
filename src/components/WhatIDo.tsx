@@ -100,10 +100,16 @@ const WhatIDo = () => {
                 <div className="what-tags">Next.js</div>
                 <div className="what-tags">TypeScript</div>
                 <div className="what-tags">JavaScript</div>
-                <div className="what-tags">HTML5</div>
-                <div className="what-tags">CSS3</div>
+                <div className="what-tags">HTML</div>
+                <div className="what-tags">CSS</div>
                 <div className="what-tags">Git</div>
                 <div className="what-tags">GitHub</div>
+                <div className="what-tags">CMS</div>
+                <div className="what-tags">Basic PHP</div>
+                <div className="what-tags">WordPress</div>
+                <div className="what-tags">Basic Laravel</div>
+                <div className="what-tags">DSA</div>
+                <div className="what-tags">OOP</div>
               </div>
               <div className="what-arrow"></div>
             </div>
